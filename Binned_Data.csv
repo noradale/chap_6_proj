@@ -1,0 +1,134 @@
+,County,Child_Mortality,CMBIN,Severe_Housing_Issues,SHBIN,CountyPOP,WhiteBlackSeg,WhiteBlackBin,WhiteNonWhiteSeg,WhiteNonWhiteBin,Limited Access to Healthy Foods,Children in Poverty,High School Graduation,ChildPovertyRank,GradRank,FoodRank,SOL PassRate,SOL AdvPassRate
+1,Accomack,0.671919858,Moderate,0.15,Moderate,32742,21,Moderate,19,Low,0.02,0.27,0.86,High,Moderate,Very Low,73.89655172,10.03448276
+2,Albemarle,0.169244511,Very Low,0.13,Low,106355,38,High,29,Moderate,0.04,0.1,0.93,Very Low,High,Very Low,79.12903226,22.96774194
+3,Alexandria City,0.364205616,Low,0.17,High,156505,40,High,36,High,NA,0.16,0.81,Low,Low,NA,68,16.82758621
+4,Alleghany,NA,NA,0.12,Low,15286,44,Very High,40,High,0.05,0.21,0.94,Moderate,High,Very Low,75.34482759,11.65517241
+5,Amelia,NA,NA,0.12,Low,12854,7,Very Low,3,Very Low,0.06,0.13,0.9,Low,Moderate,Very Low,78.82142857,11.07142857
+6,Amherst,0.34502227,Low,0.13,Low,31882,19,Low,14,Low,0.06,0.19,0.93,Moderate,High,Very Low,77.32142857,12
+7,Appomattox,1.027155421,Very High,0.12,Low,15577,5,Very Low,6,Very Low,0.01,0.19,0.94,Moderate,High,Very Low,83.64285714,15.39285714
+8,Arlington,0.207072385,Very Low,0.16,Moderate,231803,52,Very High,34,High,0,0.07,0.92,Very Low,High,Very Low,84.80645161,26.19354839
+9,Augusta,0.16064042,Very Low,0.1,Very Low,74701,37,High,28,Moderate,0.04,0.12,0.95,Low,High,Very Low,81,20.4516129
+10,Bath,NA,NA,0.12,Low,4393,NA,NA,NA,NA,0.09,0.15,0.94,Low,High,Very Low,78.51724138,13.68965517
+11,Bedford,0.385069569,Low,0.1,Very Low,77908,34,High,30,Moderate,0.02,0.13,0.92,Low,High,Very Low,79.83333333,16.66666667
+12,Bland,NA,NA,0.07,Very Low,6447,NA,NA,NA,NA,0.09,0.15,0.95,Low,High,Very Low,85.14285714,16.75
+13,Botetourt,0.301005358,Low,0.1,Very Low,33222,26,Moderate,27,Moderate,0.08,0.09,0.95,Very Low,High,Very Low,86.35714286,19.78571429
+14,Bristol City,0.653090305,Moderate,0.14,Moderate,16843,31,High,22,Moderate,0.15,0.33,0.91,Very High,High,Low,75.10344828,14.51724138
+15,Brunswick,0.600060006,Moderate,0.15,Moderate,16665,19,Low,19,Low,0.04,0.27,0.89,High,Moderate,Very Low,66.35714286,7.25
+16,Buchanan,0.587225585,Moderate,0.14,Moderate,22138,70,Very High,45,Very High,NA,0.32,0.9,Very High,Moderate,NA,74.34482759,11.75862069
+17,Buckingham,NA,NA,0.14,Moderate,17004,16,Low,12,Low,0.04,0.25,0.95,High,High,Very Low,68.5,9.964285714
+18,Buena Vista City,NA,NA,0.25,Very High,6399,NA,NA,NA,NA,0.53,0.2,0.87,Moderate,Moderate,Very High,71.96551724,13.06896552
+19,Campbell,0.380641653,Low,0.1,Very Low,55170,21,Moderate,19,Low,0.04,0.17,0.91,Low,High,Very Low,81.03333333,17.7
+20,Caroline,0.463821892,Low,0.11,Low,30184,15,Low,13,Low,0.01,0.15,0.88,Low,Moderate,Very Low,74.89285714,12.67857143
+21,Carroll,0.336270092,Low,0.11,Low,29738,NA,NA,19,Low,0.02,0.23,0.91,Moderate,High,Very Low,78.13793103,13.13793103
+22,Charles City,NA,NA,0.12,Low,6995,10,Very Low,12,Low,0.01,0.19,0.9,Moderate,Moderate,Very Low,65.53571429,7.178571429
+23,Charlotte,0.992145515,Very High,0.15,Moderate,12095,2,Very Low,3,Very Low,0.15,0.3,0.89,High,Moderate,Low,83.35714286,15.64285714
+24,Charlottesville City,0.340121593,Low,0.22,Very High,47042,37,High,31,High,0.03,0.18,0.93,Moderate,High,Very Low,73.68965517,21.55172414
+25,Chesapeake City,0.546631906,Moderate,0.16,Moderate,237820,40,High,35,High,0.05,0.12,0.93,Low,High,Very Low,83.93548387,21.19354839
+26,Chesterfield,0.41243552,Low,0.12,Low,339447,36,High,31,High,0.07,0.1,0.91,Very Low,High,Very Low,82.41935484,20.41935484
+27,Clarke,0.696136443,Moderate,0.17,High,14365,24,Moderate,22,Moderate,0,0.08,0.99,Very Low,Very High,Very Low,79.42857143,14.21428571
+28,Colonial Heights City,0.795771045,High,0.18,High,17593,31,High,19,Low,0.03,0.17,0.92,Low,High,Very Low,78.82142857,14.85714286
+29,Covington City,NA,NA,0.14,Moderate,5582,39,High,36,High,0.1,0.26,0.81,High,Low,Very Low,78.92857143,12.89285714
+30,Craig,NA,NA,0.08,Very Low,5113,NA,NA,NA,NA,0.04,0.21,0.88,Moderate,Moderate,Very Low,71.82142857,9.642857143
+31,Culpeper,0.3567889,Low,0.15,Moderate,50450,28,Moderate,31,High,0.01,0.11,0.92,Low,High,Very Low,73.53571429,9.571428571
+32,Cumberland,NA,NA,0.19,High,9786,0,Very Low,0,Very Low,0.24,0.25,0.94,High,High,Moderate,79.31034483,17.62068966
+33,Danville City,1.084023897,Very High,0.17,High,41512,34,High,32,High,0.06,0.38,0.81,Very High,Low,Very Low,73.40740741,11.40740741
+34,Dickenson,NA,NA,0.15,Moderate,14960,NA,NA,42,Very High,NA,0.29,0.91,High,High,NA,56.35714286,7.178571429
+35,Dinwiddie,0.529885545,Moderate,0.16,Moderate,28308,22,Moderate,22,Moderate,0.08,0.18,0.88,Moderate,Moderate,Very Low,84.62068966,16.37931034
+36,Emporia City,NA,NA,0.25,Very High,5381,48,Very High,49,Very High,0.01,0.37,0.77,Very High,Very Low,Very Low,76.93103448,14.13793103
+37,Essex,0.996737949,Very High,0.13,Low,11036,18,Low,13,Low,0.1,0.23,0.93,Moderate,High,Very Low,61.17857143,5.571428571
+38,Fairfax,15.12675466,Very High,0.14,Moderate,23865,40,High,26,Moderate,0.02,0.07,0.92,Very Low,High,Very Low,83.63333333,26.76666667
+39,Fairfax City,0.012242803,Very Low,0.14,Moderate,1143529,15,Low,11,Low,0,0.07,0.934,Very Low,High,Very Low,90.17857143,29.03571429
+40,Falls Church City,NA,NA,0.14,Moderate,14067,25,Moderate,12,Low,NA,0.03,0.99,Very Low,Very High,NA,79.96666667,18.73333333
+41,Fauquier,0.318310063,Low,0.12,Low,69115,21,Moderate,18,Low,0.01,0.07,0.96,Very Low,Very High,Very Low,78.96428571,15.07142857
+42,Floyd,NA,NA,0.09,Very Low,15666,23,Moderate,20,Low,0.1,0.18,0.98,Moderate,Very High,Very Low,80.4137931,17.34482759
+43,Fluvanna,0.380488547,Low,0.14,Moderate,26282,13,Low,13,Low,0.03,0.09,0.96,Very Low,Very High,Very Low,72.89285714,8.25
+44,Franklin,3.044696139,Very High,0.12,Low,8211,36,High,35,High,0.06,0.23,0.9,Moderate,Moderate,Very Low,81.5,16.75
+45,Franklin City,0.248964131,Very Low,0.21,Very High,56233,45,Very High,44,Very High,0.28,0.34,0.93,Very High,High,Moderate,78.63333333,16.93333333
+46,Frederick,0.422768429,Low,0.11,Low,85153,29,Moderate,23,Moderate,0.04,0.1,0.93,Very Low,High,Very Low,65.48275862,10.44827586
+47,Fredericksburg City,0.807896308,High,0.2,Very High,28469,17,Low,19,Low,0.02,0.21,0.83,Moderate,Low,Very Low,80.07142857,13.14285714
+48,Galax City,NA,NA,0.14,Moderate,6638,61,Very High,61,Very High,0.01,0.35,0.93,Very High,High,Very Low,83.4137931,17.17241379
+49,Giles,NA,NA,0.08,Very Low,16814,50,Very High,41,Very High,0,0.18,0.93,Moderate,High,Very Low,83.5,17.75
+50,Gloucester,0.376739054,Low,0.12,Low,37161,21,Moderate,16,Low,0.03,0.13,0.93,Low,High,Very Low,84.20689655,18.31034483
+51,Goochland,NA,NA,0.11,Low,22482,27,Moderate,23,Moderate,0.03,0.08,0.94,Very Low,High,Very Low,82.17857143,13.78571429
+52,Grayson,NA,NA,0.12,Low,15811,18,Low,12,Low,0.09,0.28,0.91,High,High,Very Low,74.65517241,14.34482759
+53,Greene,0.515198351,Moderate,0.12,Low,19410,19,Low,25,Moderate,0,0.12,0.95,Low,High,Very Low,62.03571429,7.5
+54,Greensville,NA,NA,0.15,Moderate,11659,10,Very Low,10,Very Low,0.04,0.27,0.89,High,Moderate,Very Low,74.37931034,10.51724138
+55,Halifax,0.46004773,Low,0.11,Low,34779,24,Moderate,22,Moderate,0.11,0.22,0.95,Moderate,High,Low,75.35483871,13.03225806
+56,Hampton City,0.619546698,Moderate,0.23,Very High,135583,36,High,33,High,0.1,0.24,0.93,Moderate,High,Very Low,85.83333333,20.63333333
+57,Hanover,0.315943666,Low,0.09,Very Low,104449,23,Moderate,18,Low,0.04,0.06,0.95,Very Low,High,Very Low,68.03571429,12.82142857
+58,Harrisonburg City,0.374594969,Low,0.26,Very High,53391,23,Moderate,19,Low,0.01,0.2,0.88,Moderate,Moderate,Very Low,80.16129032,21.90322581
+59,Henrico,0.491337113,Low,0.15,Moderate,325642,57,Very High,42,Very High,0.04,0.13,0.92,Low,High,Very Low,78.56666667,15.13333333
+60,Henry,0.445840118,Low,0.12,Low,51588,25,Moderate,22,Moderate,0.07,0.28,0.88,High,Moderate,Very Low,81.77272727,13.18181818
+61,Highland,NA,NA,0.1,Very Low,2214,NA,NA,NA,NA,0.32,0.21,1,Moderate,Very High,High,72.83333333,11.9
+62,Hopewell City,1.026419136,Very High,0.2,Very High,22408,22,Moderate,23,Moderate,0.13,0.31,0.91,High,High,Low,80.96428571,16.32142857
+63,Isle of Wight,0.357417794,Low,0.12,Low,36372,20,Low,17,Low,0.02,0.12,0.96,Low,Very High,Very Low,76.82758621,10.51724138
+64,James City,0.296683883,Low,0.13,Low,74153,31,High,26,Moderate,0.07,0.09,0.92,Very Low,High,Very Low,82.13793103,17.93103448
+65,King and Queen,NA,NA,0.15,Moderate,7052,27,Moderate,30,Moderate,0.04,0.19,0.87,Moderate,Moderate,Very Low,77.14285714,11.14285714
+66,King George,NA,NA,0.09,Very Low,25890,18,Low,15,Low,NA,0.09,0.95,Very Low,High,NA,66.64285714,8.321428571
+67,King William,NA,NA,0.13,Low,16497,19,Low,17,Low,0.03,0.1,0.92,Very Low,High,Very Low,80.85714286,14.42857143
+68,Lancaster,NA,NA,0.12,Low,10804,15,Low,14,Low,0.01,0.24,0.89,Moderate,Moderate,Very Low,82.57894737,35.26315789
+69,Lee,0.455788514,Low,0.13,Low,24134,81,Very High,62,Very High,0,0.33,0.85,Very High,Low,Very Low,85.19354839,24.67741935
+70,Lexington City,NA,NA,0.16,Moderate,7110,NA,NA,NA,NA,0.01,0.14,0.82,Low,Low,Very Low,82.46428571,18.67857143
+71,Loudoun,0.308976147,Low,0.11,Low,385143,25,Moderate,30,Moderate,0.01,0.04,0.96,Very Low,Very High,Very Low,74.82142857,11.64285714
+72,Louisa,0.310910119,Low,0.12,Low,35380,24,Moderate,19,Low,0.01,0.15,0.94,Low,High,Very Low,71.63333333,15.8
+73,Lunenburg,NA,NA,0.14,Moderate,12278,6,Very Low,12,Low,0,0.25,0.8,High,Very Low,Very Low,74.46428571,13.25
+74,Lynchburg City,0.486703024,Low,0.18,High,80131,44,Very High,39,High,0.09,0.25,0.86,High,Moderate,Very Low,71.10344828,11.20689655
+75,Madison,NA,NA,0.17,High,13139,6,Very Low,4,Very Low,0.01,0.16,0.96,Low,Very High,Very Low,73.85714286,12.92857143
+76,Manassas City,0.434184818,Low,0.19,High,41457,15,Low,16,Low,0.01,0.15,0.78,Low,Very Low,Very Low,70.85185185,10.33333333
+77,Manassas Park City,NA,NA,0.19,High,16423,19,Low,9,Very Low,0.11,0.12,0.89,Low,Moderate,Low,78.03448276,13
+78,Martinsville City,0.763300511,High,0.15,Moderate,13101,33,High,33,High,0.1,0.34,0.87,Very High,Moderate,Very Low,78.82758621,16.75862069
+79,Mathews,NA,NA,0.1,Very Low,8796,31,High,11,Low,0,0.17,0.94,Low,High,Very Low,76.46428571,15.53571429
+80,Mecklenburg,0.940123837,Very High,0.14,Moderate,30847,18,Low,18,Low,0.04,0.3,0.89,High,Moderate,Very Low,81.07142857,19.78571429
+81,Middlesex,NA,NA,0.14,Moderate,10700,23,Moderate,12,Low,0,0.23,0.94,Moderate,High,Very Low,76.4137931,14.34482759
+82,Montgomery,0.285723032,Low,0.19,High,97997,29,Moderate,32,High,0.04,0.15,0.95,Low,High,Very Low,82.10344828,16.93103448
+83,Nelson,NA,NA,0.14,Moderate,14812,25,Moderate,18,Low,0.03,0.2,0.92,Moderate,High,Very Low,71.66666667,14.76666667
+84,New Kent,NA,NA,0.13,Low,21103,9,Very Low,3,Very Low,0,0.07,0.94,Very Low,High,Very Low,71.32258065,14.67741935
+85,Newport News City,0.571761636,Moderate,0.18,High,180145,42,Very High,37,High,0.06,0.22,0.93,Moderate,High,Very Low,70.10714286,10.28571429
+86,Norfolk City,0.724779309,Moderate,0.23,Very High,245592,53,Very High,46,Very High,0.08,0.28,0.82,High,Low,Very Low,77.92857143,12.71428571
+87,Northampton,0.836330183,High,0.15,Moderate,11957,5,Very Low,6,Very Low,0,0.3,0.91,High,High,Very Low,83.14285714,12
+88,Northumberland,NA,NA,0.15,Moderate,12223,10,Very Low,9,Very Low,0.01,0.27,0.95,High,High,Very Low,73.5,10.96428571
+89,Norton City,NA,NA,0.23,Very High,3990,NA,NA,NA,NA,0.02,0.31,0.95,High,High,Very Low,80.17241379,15.72413793
+90,Nottoway,0.64516129,Moderate,0.17,High,15500,18,Low,17,Low,0.3,0.28,0.91,High,High,Moderate,76.25,12.85714286
+91,Orange,0.336965068,Low,0.13,Low,35612,14,Low,6,Very Low,0.08,0.13,0.93,Low,High,Very Low,84.13793103,18.72413793
+92,Page,0.463177397,Low,0.13,Low,23749,54,Very High,34,High,0.01,0.19,1,Moderate,Very High,Very Low,53.28571429,5.035714286
+93,Patrick,NA,NA,0.13,Low,17859,20,Low,21,Moderate,0.05,0.23,0.93,Moderate,High,Very Low,84,19.33333333
+94,Petersburg City,1.193954818,Very High,0.25,Very High,31827,32,High,32,High,0.21,0.39,0.83,Very High,Low,Low,88.57142857,22.21428571
+95,Pittsylvania,0.518840392,Moderate,0.12,Low,61676,26,Moderate,25,Moderate,0.06,0.22,0.91,Moderate,High,Very Low,73.3,13.13333333
+96,Poquoson City,NA,NA,0.09,Very Low,12039,37,High,21,Moderate,0.05,0.05,0.96,Very Low,Very High,Very Low,82.14285714,16.17857143
+97,Portsmouth City,0.807881567,High,0.21,Very High,95311,54,Very High,51,Very High,0.04,0.29,0.86,High,Moderate,Very Low,63,9.535714286
+98,Powhatan,0.349968503,Low,0.13,Low,28574,29,Moderate,18,Low,0.02,0.08,0.94,Very Low,High,Very Low,81.46428571,14.32142857
+99,Prince Edward,NA,NA,0.13,Low,22956,12,Low,11,Low,0.12,0.28,0.89,High,Moderate,Low,81.51612903,20.16129032
+100,Prince George,0.39584103,Low,0.13,Low,37894,19,Low,17,Low,0.1,0.11,0.91,Low,High,Very Low,77.5,14.10714286
+101,Prince William,0.385331988,Low,0.16,Moderate,456749,34,High,27,Moderate,0.03,0.09,0.92,Very Low,High,Very Low,82.18518519,21.59259259
+102,Pulaski,0.350528714,Low,0.09,Very Low,34234,16,Low,11,Low,0.06,0.21,0.95,Moderate,High,Very Low,85.06896552,15.86206897
+103,Radford City,NA,NA,0.25,Very High,17630,13,Low,15,Low,0.07,0.18,0.97,Moderate,Very High,Very Low,58.87096774,11.80645161
+104,Rappahannock,NA,NA,0.16,Moderate,7332,34,High,34,High,0.21,0.14,0.95,Low,High,Low,78.74074074,11.81481481
+105,Richmond,NA,NA,0.17,High,223787,12,Low,14,Low,0.02,0.23,0.95,Moderate,High,Very Low,75.23333333,17.43333333
+106,Richmond City,17.57152512,Very High,0.24,Very High,8878,55,Very High,52,Very High,0.08,0.35,0.75,Very High,Very Low,Very Low,85.43333333,20.73333333
+107,Roanoke,0.321217414,Low,0.11,Low,99621,33,High,23,Moderate,0.03,0.08,0.95,Very Low,High,Very Low,78.93333333,18.8
+108,Roanoke City,0.662513491,Moderate,0.19,High,93583,58,Very High,50,Very High,0.08,0.32,0.9,Very High,Moderate,Very Low,80.4137931,17.34482759
+109,Rockbridge,NA,NA,0.12,Low,22509,36,High,24,Moderate,0.05,0.17,0.91,Low,High,Very Low,84.14814815,15.37037037
+110,Rockingham,0.465736871,Low,0.12,Low,79444,51,Very High,34,High,0.06,0.09,0.94,Very Low,High,Very Low,82.4137931,18.44827586
+111,Russell,0.474314069,Low,0.13,Low,27408,69,Very High,48,Very High,0.02,0.22,0.9,Moderate,Moderate,Very Low,87.92857143,18.25
+112,Salem City,0.50942435,Moderate,0.15,Moderate,25519,48,Very High,40,High,0.12,0.12,0.97,Low,Very High,Low,71.96428571,11.5
+113,Scott,NA,NA,0.11,Low,22009,NA,NA,55,Very High,0.04,0.25,0.95,High,High,Very Low,79.93103448,14.4137931
+114,Shenandoah,NA,NA,0.12,Low,43045,39,High,29,Moderate,0.03,0.15,0.97,Low,Very High,Very Low,82.96428571,15.10714286
+115,Smyth,0.515148588,Moderate,0.11,Low,31059,52,Very High,33,High,0.06,0.25,0.95,High,High,Very Low,79.06666667,17.03333333
+116,Southampton,0.668933608,Moderate,0.12,Low,17939,11,Low,10,Very Low,0.14,0.2,0.87,Moderate,Moderate,Low,82.70967742,20.12903226
+117,Spotsylvania,0.441359998,Low,0.13,Low,131412,18,Low,19,Low,0.04,0.1,0.91,Very Low,High,Very Low,73.64285714,14.78571429
+118,Stafford,0.423575813,Low,0.11,Low,144012,23,Moderate,25,Moderate,0.03,0.07,0.95,Very Low,High,Very Low,76.93333333,13.23333333
+119,Staunton City,0.490757402,Low,0.17,High,24452,16,Low,19,Low,0.02,0.19,0.9,Moderate,Moderate,Very Low,78.21428571,10.21428571
+120,Suffolk City,0.482279049,Low,0.16,Moderate,89160,43,Very High,42,Very High,0.06,0.16,0.87,Low,Moderate,Very Low,77.10714286,12.14285714
+121,Surry,NA,NA,0.09,Very Low,6600,1,Very Low,1,Very Low,0.1,0.2,0.94,Moderate,High,Very Low,86.57142857,18.35714286
+122,Sussex,NA,NA,0.13,Low,11486,18,Low,17,Low,0.18,0.3,0.89,High,Moderate,Low,84.38709677,20.61290323
+123,Tazewell,0.451520913,Low,0.1,Very Low,42080,53,Very High,27,Moderate,0.08,0.24,0.89,Moderate,Moderate,Very Low,74.78571429,13.92857143
+124,Virginia Beach City,0.390993813,Low,0.16,Moderate,450135,36,High,34,High,0.03,0.1,0.93,Very Low,High,Very Low,86.19354839,22
+125,Warren,0.608380441,Moderate,0.12,Low,39449,38,High,29,Moderate,0.03,0.14,0.94,Low,High,Very Low,68.53571429,11.03571429
+126,Washington,0.330845863,Low,0.1,Very Low,54406,59,Very High,27,Moderate,0.03,0.21,0.94,Moderate,High,Very Low,92.42857143,21.92857143
+127,Waynesboro City,0.547295448,Moderate,0.15,Moderate,21926,27,Moderate,21,Moderate,0.04,0.25,0.83,High,Low,Very Low,74.42857143,11.21428571
+128,Westmoreland,NA,NA,0.14,Moderate,17638,25,Moderate,21,Moderate,0.02,0.27,0.92,High,High,Very Low,82.90322581,23.32258065
+129,Williamsburg City,NA,NA,0.22,Very High,14788,22,Moderate,23,Moderate,0.04,0.28,0.92,High,High,Very Low,73.07142857,14.5
+130,Winchester City,0.539781928,Moderate,0.2,Very High,27789,30,Moderate,21,Moderate,0.03,0.22,0.89,Moderate,Moderate,Very Low,88.5,20.10714286
+131,Wise,0.614990391,Moderate,0.13,Low,39025,58,Very High,29,Moderate,0.04,0.33,0.96,Very High,Very High,Very Low,86.74074074,21.22222222
+132,Wythe,NA,NA,0.12,Low,28940,48,Very High,43,Very High,0.02,0.24,0.94,Moderate,High,Very Low,89.13333333,22.6
+133,York,0.251527661,Low,0.11,Low,67587,28,Moderate,27,Moderate,0.04,0.07,0.97,Very Low,Very High,Very Low,,
