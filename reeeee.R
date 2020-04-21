@@ -39,6 +39,7 @@ new_x<- data.frame(x,fippy)
 newnew_x <- data.frame(new_x[,c(2,3)])
 names(newnew_x) <- c("vals","fips")
 
-plot_usmap(include= "VA", regions = "counties", data= newnew_x, values="vals")+ scale_fill_manual(values = c("darkcyan", "cadetblue1", "cadetblue4", "gray28", "deepskyblue4", "lightcyan"), name = "White-Black Segregation", guide = guide_legend(reverse = TRUE))+
-    theme(legend.position = "right") 
+newnew_x$vals <- factor(newnew_x$vals, levels = c("Very Low", "Low", "Moderate", "High", "Very High", "NA"))
+plot_usmap(include= "VA", regions = "counties", data= newnew_x, values="vals")+ scale_fill_manual(values = c("thistle1", "rosybrown1", "lightsalmon1", "salmon3", "brown4", "gray30"), 
+       name = "White-Black Segregation", guide = guide_legend(reverse = )) + theme(legend.position = "right") 
 
