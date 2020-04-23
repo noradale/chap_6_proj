@@ -5,20 +5,25 @@ binned_data_final <- transform(binned_data_final, Child_Mortality = as.numeric(C
 
 #plotting and finding correlation between severe housing issues and SOL pass rate
 ggplot(data=binned_data_final, aes(x=binned_data_final$Severe_Housing_Issues, y=binned_data_final$SOL.PassRate))+ geom_point()
-cor(binned_data_final$Severe_Housing_Issues,binned_data_final$SOL.PassRate)
+SHIpass <- cor(binned_data_final$Severe_Housing_Issues,binned_data_final$SOL.PassRate)
 
 #plotting and finding correlation between severe housing issues and SOL advanced pass rate
 ggplot(data=binned_data_final, aes(x=binned_data_final$Severe_Housing_Issues, y=binned_data_final$SOL.AdvPassRate))+ geom_point()
-cor(binned_data_final$Severe_Housing_Issues,binned_data_final$SOL.AdvPassRate)
+SHIadvpass <- cor(binned_data_final$Severe_Housing_Issues,binned_data_final$SOL.AdvPassRate)
 
 #plotting and finding correlation between child mortality and SOL pass rate
 ggplot(data=binned_data_final, aes(x=binned_data_final$Child_Mortality, y=binned_data_final$SOL.PassRate))+ geom_point()
-cor(binned_data_final$Child_Mortality, binned_data_final$SOL.PassRate, use= "pairwise.complete.obs")
+CMpass <- cor(binned_data_final$Child_Mortality, binned_data_final$SOL.PassRate, use= "pairwise.complete.obs")
 
 #plotting and finding correlation between child mortality and SOL advanced pass rate
 ggplot(data=binned_data_final, aes(x=binned_data_final$Child_Mortality, y=binned_data_final$SOL.AdvPassRate))+ geom_point()
-cor(binned_data_final$Child_Mortality,binned_data_final$SOL.AdvPassRate, use="pairwise.complete.obs")
+CMadvpass <-cor(binned_data_final$Child_Mortality,binned_data_final$SOL.AdvPassRate, use="pairwise.complete.obs")
 
+SHISOL <- rbind(SHIpass, SHIadvpass)
+CMSOL <- rbind(CMpass, CMadvpass)
+correlations <- cbind(SHISOL, CMSOL)
+rownames(correlations) <- c("Pass", "Adv Pass")
+colnames(correlations) <- c("Severe Housing Issues", "Child Mortality")
 ##mapping severe housing issues
 SHI_dataset <- cbind(binned_data_final$County,binned_data_final$SHBIN)
 SHI <- data.frame(SHI_dataset)
@@ -48,9 +53,11 @@ final_CM <- data.frame(new_CM[,c(2,3)])
 names(final_CM) <- c("vals","fips")
 
 
-final_CM$vals <- factor(final_CM$vals, levels = c("Very Low", "Low", "Moderate", "High", "Very High", "NA"))
+final_CM$vals <- factor(final_CM$vals, levels = c("Very Low", "Low", "Moderate", "High", "Very High"))
 
-plot_usmap(include= "VA", regions = "counties", data= final_CM, values="vals")+ scale_fill_manual(values = c("thistle1", "rosybrown1", "lightsalmon1", "salmon3", "brown4", "gray30"), name = "Child Mortality", guide = guide_legend(reverse = FALSE), na.value="gray")+
+plot_usmap(include= "VA", regions = "counties", data= final_CM, values="vals")+ scale_fill_manual(values = c("thistle1", "rosybrown1", "lightsalmon1", "salmon3", "brown4"), name = "Child Mortality", guide = guide_legend(reverse = FALSE), na.value = "grey")+
   theme(legend.position = "right") 
 
 
+shapiro.test(binned_data_final$Child_Mortality)
+shapiro.test(binned_data_final$Severe_Housing_Issues)
