@@ -21,6 +21,7 @@ ui <- fluidPage(
     
         sidebarLayout(
             sidebarPanel(
+               
                 h3("Factors"),
                 h6("Assign a weight value for every factor and press the 'find!' button"),
                 sliderInput("SOL_slider", 
@@ -79,20 +80,49 @@ ui <- fluidPage(
 )
 
 # Define server logic       
-server <- function(input, output) {
+server <- function(input, output, session) {
     
     output$my_tmap <- renderLeaflet({
         # Data Used
         mydata <- score_data
-        mymap <- st_read("VA_shapes/tl_2016_51_cousub.shp", stringsAsFactors = FALSE)
+        mymap <- st_read("tl_2016_51_cousub.shp", stringsAsFactors = FALSE)
         str(mymap)
         # Joining Data 
         map_and_data <- inner_join(mymap, mydata)
         str(map_and_data)
         # Creating tmap 
-        tm <- tm_shape(map_and_data)+ tm_polygons("TotalScore", id = "County", pallete = "Greens")
+        tm <- tm_shape(map_and_data)+ tm_polygons("TotalScore", id = "County", pallete = "Greens", zindex = 401)
         tmap_leaflet(tm)
     })
+    
+    observeEvent(input$action, {
+        
+      
+        score_data$DynamicScore <- ((input$SOL_slider * score_data$SOLPassRate +
+                                         input$SOLADV_slider * score_data$SOLAdvPassRate +
+                                         input$HSG_slider * score_data$HighGrad +
+                                         input$CP_slider * score_data$ChildPoverty +
+                                         input$HF_slider * score_data$HealthyFoods +
+                                         input$CM_slider * score_data$Child_Mortality +
+                                         input$SHI_slider * score_data$Severe_Housing_Issues +
+                                         input$WB_slider * score_data$WhiteBlackSeg +
+                                         input$WNW_slider * score_data$WhiteNonWhiteSeg)/
+                                        ( input$SOLADV_slider+ input$SOLADV_slider+ input$WNW_slider+input$WB_slider+input$SHI_slider+input$CM_slider+input$HF_slider+input$CP_slider+input$HSG_slider))
+        
+        mydata_2 <- score_data
+        mymap_2 <- st_read("tl_2016_51_cousub.shp", stringsAsFactors = FALSE)
+        str(mymap_2)
+        # Joining Data 
+        map_and_data_2 <- inner_join(mymap_2, mydata_2)
+        
+        # Creating tmap 
+        tmapProxy("my_tmap", session, {
+        tm_remove_layer(401) +
+        tm_shape(map_and_data_2) +
+        tm_polygons("DynamicScore", id = "County", pallete = "Greens", zindex = 401)
+            })
+        
+        })
 }
 
 # Run the application 
