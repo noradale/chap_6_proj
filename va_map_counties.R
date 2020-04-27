@@ -1,16 +1,18 @@
 library(shiny)
 library(leaflet)
 library(sf)
+library (tmap)
+library (tmaptools)
+library (dplyr)
 
 # VA counties - downloaded via the awesome tigris package
 shape <- tigris::counties(state = "VA", class = "sf")
-
 
 # Define UI 
 ui <- fluidPage(
     
     # Application title
-    titlePanel("The Old Dominion"),
+    titlePanel("Virginia School County Ranking"),
     
     # Top panel with county name
     verticalLayout(
@@ -70,7 +72,7 @@ ui <- fluidPage(
                 
         # the map itself
         mainPanel(
-            leafletOutput("map")
+            leafletOutput("my_tmap")
             )
         )
     )
@@ -79,20 +81,17 @@ ui <- fluidPage(
 # Define server logic       
 server <- function(input, output) {
     
-    output$map <- renderLeaflet({
-        leaflet() %>% 
-            addProviderTiles("Stamen.Toner") %>% 
-            addPolygons(data = shape, 
-                        fillColor = "aliceblue", 
-                        color = "grey",
-                        layerId = ~COUNTYNS)
-    })
-    
-    # Clicking the map for name
-    observe({ 
-        event <- input$map_shape_click
-        output$cnty <- renderText(shape$NAMELSAD[shape$COUNTYNS == event$id])
-        
+    output$my_tmap <- renderLeaflet({
+        # Data Used
+        mydata <- score_data
+        mymap <- st_read("VA_shapes/tl_2016_51_cousub.shp", stringsAsFactors = FALSE)
+        str(mymap)
+        # Joining Data 
+        map_and_data <- inner_join(mymap, mydata)
+        str(map_and_data)
+        # Creating tmap 
+        tm <- tm_shape(map_and_data)+ tm_polygons("TotalScore", id = "County", pallete = "Greens")
+        tmap_leaflet(tm)
     })
 }
 
